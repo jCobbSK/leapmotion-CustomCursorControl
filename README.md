@@ -3,7 +3,7 @@ leapmotion - CustomCursorControl
 
 Overview
 --------
-Easy way to control page using [leapmotion senzor](http://www.leapmotion.com), leapmotion/leapjs, gilmoreorless/jquery-nearest  and jQuery library.
+Easy way to control page using [leapmotion senzor](http://www.leapmotion.com), [leapmotion/leapjs](https://github.com/leapmotion/leapjs), [gilmoreorless/jquery-nearest](https://github.com/gilmoreorless/jquery-nearest) and [jQuery](http://jquery.com) library.
 
 Features
 --------
@@ -71,4 +71,4 @@ Demo
 ----
 
 Demo is available at http://kandosvk.github.io/leapmotion-CustomCursorControl.
-Please note that demo is using [bootstrap](http://getbootstrap.com/) , aterrien/jQuery-Knob .
+Please note that demo is using [bootstrap](http://getbootstrap.com/) , [aterrien/jQuery-Knob](https://github.com/aterrien/jQuery-Knob) .
