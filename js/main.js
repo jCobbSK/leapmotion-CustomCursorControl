@@ -1,4 +1,3 @@
-
 /**
  * @class
  * Basic class for handling events
@@ -32,7 +31,7 @@ $(document).ready(function(){
 	//leap motion init
 	var controller = new Leap.Controller({enableGestures:true});
 	var hbox = new LeapmotionCursorControl.LeapControl(controller,
-		{cursorSelector:"#kurzor",clickableSelector:".clickabl",clickTimer:1000,gestureClickOn:"true"},
+		{cursorSelector:"#kurzor",clickableSelector:".clickabl",clickTimer:1000},
 		function(percentage,id){
 			if(percentage != -1)
 			{
