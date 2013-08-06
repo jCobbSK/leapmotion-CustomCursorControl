@@ -3,7 +3,7 @@ leapmotion - CustomCursorControl
 
 Overview
 --------
-Easy way to control page using [leapmotion senzor](http://www.leapmotion.com), leapmotion/leapjs#1, gilmoreorless/jquery-nearest#1  and jQuery library.
+Easy way to control page using [leapmotion senzor](http://www.leapmotion.com), leapmotion/leapjs, gilmoreorless/jquery-nearest  and jQuery library.
 
 Features
 --------
@@ -17,7 +17,7 @@ Features
 How to use
 ----------
 
-```
+```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="js/jquery.nearest.min.js"></script>
 <script src="js/leap.cursorcontrol.js"></script>
@@ -26,7 +26,7 @@ How to use
 <a href="#" class="clickable">Click me!</a> 
 <script>
 $(document).ready(function(){
-  var controller = new Leap.Controller({enableGestures:true});
+	var controller = new Leap.Controller({enableGestures:true});
 	var leapBox = new LeapmotionCursorControl.LeapControl(controller,
 		{cursorSelector:"#cursor",clickableSelector:".clickable"});
 	controller.on("connect",function(){
@@ -41,7 +41,7 @@ $(document).ready(function(){
 Options
 -------
 
-```
+```javascript
 var leapBox = new LeapmotionCursorControl.LeapControl(
 	controller,
 	{
@@ -71,4 +71,4 @@ Demo
 ----
 
 Demo is available at http://kandosvk.github.io/leapmotion-CustomCursorControl.
-Please note that demo is using [bootstrap](http://getbootstrap.com/) , aterrien/jQuery-Knob#1 .
+Please note that demo is using [bootstrap](http://getbootstrap.com/) , aterrien/jQuery-Knob .
