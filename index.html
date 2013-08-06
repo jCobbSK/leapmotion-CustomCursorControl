@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Leapmotion basic page control</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+    	<!-- div containing our cursor (we are moving this) -->
+    	<div id="kurzor" style="position:fixed;width:50px;height:50px;z-index="500">
+    		<!-- element for nice styling cursor (jquery.knob.js)-->
+    		<input id="cursor-input" type="text" data-bgColor="#222222" value="0" data-min="0" data-max="100" 
+    				class="knob" data-width="50" data-height="50" data-readOnly="true" data-displayInput="false" style="display:none;">
+    	</div>
+    
+
+        <div class="container">
+            <div id="workplace">
+            	
+            </div>
+        </div> 
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+		<script src="//js.leapmotion.com/0.2.0-beta6/leap.min.js"></script>
+		<script src="js/jquery.nearest.min.js"></script>
+		<script src="js/jquery.knob.js"></script>
+		<script src="js/leap.cursorcontrol.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
