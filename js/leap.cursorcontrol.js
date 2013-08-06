@@ -1,4 +1,3 @@
-
 /**
  * @class HandleBox
  * 
@@ -242,7 +241,7 @@ LeapmotionCursorControl.LeapControl.prototype = {
 		{
 			var pos = this.transformPosition(frame.pointable(this._lastPointerId).stabilizedTipPosition);
 			this.moveCursor(pos);
-			if(this.timeClickOn == true){
+			if(this.timeClickOn == "true"){
 				var centerX = pos.x + parseInt($(this.cursorSelector).css("width"))/2;
 				var centerY = $(window).height()-pos.y-(parseInt($(this.cursorSelector).css("height"))/2);
 				this.timeClickHandle(centerX,centerY);
